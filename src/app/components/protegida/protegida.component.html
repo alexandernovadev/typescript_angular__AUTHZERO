@@ -1,0 +1,17 @@
+<p>
+  protegida works!
+</p>
+<br>
+
+
+<div class="row">
+  <div class="col-md-4">
+    <img [src]="profile.picture" class="img-fluid" alt="">
+  </div>
+  <div class="col">
+    <span>Nombre</span>: {{ profile.given_name }} {{ profile.family_name }}
+  </div>
+</div>
+<pre>
+  {{ profile | json }}
+</pre>
